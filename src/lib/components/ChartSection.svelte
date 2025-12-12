@@ -2,12 +2,12 @@
 	<div class="container-custom">
 		<div class="flex flex-col md:flex-row justify-between items-start mb-16 gap-8">
 			<div>
-				<h2 class="text-3xl font-medium mb-2">Highest accuracy at every price point</h2>
-				<p class="text-xl text-muted font-light">State of the art across several benchmarks</p>
+				<h2 class="text-3xl font-medium mb-2">Unprecedented speed with quantum accuracy</h2>
+				<p class="text-xl text-muted font-light">Performance comparison across quantum chemistry methods</p>
 			</div>
 			<div class="max-w-xs text-[10px] text-muted leading-relaxed border-l border-border pl-4">
 				<strong class="text-foreground block mb-1">About this benchmark</strong>
-				This benchmark consists of 2,500 questions developed by subject matter experts across dozens of subjects (e.g. math, humanities, natural sciences). Each question has a known solution that is unambiguous and easily verifiable, but requires sophisticated web retrieval and reasoning. Results are reported on a sample of 100 questions from this benchmark. Learn more in our <a href="#" class="underline">latest blog</a>.
+				Performance measured on binding free energy predictions for covalent binders. QDX EXESS achieves 1000× speed advantage over traditional ab initio methods while maintaining full quantum mechanical accuracy. Binding predictions completed in 0.3 GPU hours vs. 200-800 GPU hours for classical FEP methods. Learn more in our <a href="#" class="underline">Gordon Bell Prize publication</a>.
 			</div>
 		</div>
 
@@ -24,79 +24,77 @@
 			
 			<!-- Y Axis Label -->
 			<div class="absolute left-2 top-1/2 -translate-y-1/2 -rotate-90 text-muted origin-center whitespace-nowrap">
-				ACCURACY (%)
+				QUANTUM ACCURACY (%)
 			</div>
 
 			<!-- X Axis Label -->
 			<div class="absolute bottom-2 left-1/2 -translate-x-1/2 text-muted">
-				COST (CPM)
+				COMPUTE TIME (GPU HOURS)
 			</div>
 
 			<!-- Top Left Legend -->
 			<div class="absolute top-4 left-4 flex gap-4 text-[10px] text-muted">
-				<span class="bg-gray-200 px-1 rounded text-foreground">MMLU-Search</span>
-				<span>BrowseComp Search</span>
-				<span>BrowseComp</span>
-				<span>DeepResearch Bench</span>
-				<span>WISER-Atomic</span>
+				<span class="bg-gray-200 px-1 rounded text-foreground">Binding Free Energy</span>
+				<span>Covalent Binders</span>
+				<span>Ab Initio MD</span>
 			</div>
 
 			<!-- Data Points -->
 			
-			<!-- Parallel (The Winner) -->
-			<div class="absolute top-[15%] left-[15%] flex flex-col items-center group cursor-pointer z-10">
+			<!-- QDX EXESS (The Winner) -->
+			<div class="absolute top-[12%] left-[8%] flex flex-col items-center group cursor-pointer z-10">
 				<div class="flex items-center gap-2 mb-1">
-					<span class="text-accent font-bold">PARALLEL</span>
+					<span class="text-accent font-bold">QDX EXESS</span>
 				</div>
 				<div class="w-3 h-3 bg-accent rounded-full shadow-[0_0_0_4px_rgba(255,68,0,0.2)]"></div>
-				<div class="mt-1 text-[10px] text-accent">67% / $2CPM</div>
+				<div class="mt-1 text-[10px] text-accent">100% QM / 0.3h</div>
 			</div>
 
-			<!-- OpenAI GPT-4 -->
-			<div class="absolute top-[25%] left-[45%] flex flex-col items-center group cursor-pointer">
+			<!-- Traditional Ab Initio -->
+			<div class="absolute top-[15%] right-[15%] flex flex-col items-center group cursor-pointer">
 				<div class="flex items-center gap-2 mb-1 opacity-0 group-hover:opacity-100 transition-opacity">
-					<span class="font-bold">OPENAI GPT-4</span>
+					<span class="font-bold text-[10px]">TRADITIONAL AB INITIO</span>
 				</div>
 				<div class="w-2 h-2 bg-black rounded-full"></div>
-				<div class="mt-1 text-[10px] text-muted">65% / $15CPM</div>
+				<div class="mt-1 text-[10px] text-muted">100% QM / 300h</div>
 			</div>
 
-			<!-- Perplexity -->
-			<div class="absolute top-[55%] left-[35%] flex flex-col items-center group cursor-pointer">
+			<!-- Schrödinger FEP -->
+			<div class="absolute top-[70%] left-[35%] flex flex-col items-center group cursor-pointer">
 				<div class="flex items-center gap-2 mb-1 opacity-100">
-					<span class="font-bold text-[10px]">PERPLEXITY</span>
+					<span class="font-bold text-[10px]">SCHRÖDINGER FEP</span>
 				</div>
 				<div class="w-2 h-2 bg-black rounded-full"></div>
-				<div class="mt-1 text-[10px] text-muted">30% / $10CPM</div>
+				<div class="mt-1 text-[10px] text-muted">0% QM / 400h</div>
 			</div>
 
-			<!-- ERA -->
-			<div class="absolute top-[65%] left-[40%] flex flex-col items-center group cursor-pointer">
+			<!-- Gaussian -->
+			<div class="absolute top-[25%] right-[25%] flex flex-col items-center group cursor-pointer">
 				<div class="flex items-center gap-2 mb-1 opacity-100">
-					<span class="font-bold text-[10px]">ERA</span>
+					<span class="font-bold text-[10px]">GAUSSIAN</span>
 				</div>
 				<div class="w-2 h-2 bg-black rounded-full"></div>
-				<div class="mt-1 text-[10px] text-muted">24% / $15CPM</div>
+				<div class="mt-1 text-[10px] text-muted">100% QM / 500h</div>
 			</div>
 
-			<!-- TAVILY -->
-			<div class="absolute top-[80%] right-[20%] flex flex-col items-center group cursor-pointer">
+			<!-- Classical MD -->
+			<div class="absolute top-[75%] left-[25%] flex flex-col items-center group cursor-pointer">
 				<div class="flex items-center gap-2 mb-1 opacity-100">
-					<span class="font-bold text-[10px]">TAVILY</span>
+					<span class="font-bold text-[10px]">CLASSICAL MD</span>
 				</div>
 				<div class="w-2 h-2 bg-black rounded-full"></div>
-				<div class="mt-1 text-[10px] text-muted">21% / $30CPM</div>
+				<div class="mt-1 text-[10px] text-muted">0% QM / 200h</div>
 			</div>
 
 			<!-- Bottom Right Legend -->
 			<div class="absolute bottom-4 right-4 flex items-center gap-4 text-[10px]">
 				<div class="flex items-center gap-1">
 					<div class="w-2 h-2 bg-accent rounded-full"></div>
-					<span class="text-accent font-bold">PARALLEL</span>
+					<span class="text-accent font-bold">QDX EXESS</span>
 				</div>
 				<div class="flex items-center gap-1">
 					<div class="w-2 h-2 bg-black rounded-full"></div>
-					<span class="text-muted">OTHERS</span>
+					<span class="text-muted">COMPETITORS</span>
 				</div>
 			</div>
 		</div>

@@ -2,27 +2,27 @@
 	<div class="container-custom">
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Highest accuracy</h3>
+				<h3 class="font-medium text-sm">1000× Speed Advantage</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					Production-ready outputs built on cross-referenced facts, with minimal hallucination.
+					EXESS compresses a year of compute time into single-digit hours with quantum-accurate simulations.
 				</p>
 			</div>
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Predictable costs</h3>
+				<h3 class="font-medium text-sm">Quantum Accuracy</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					Flex compute budget based on task complexity. Pay per query, not per token.
+					100% quantum mechanical simulations with DFT-level accuracy at unprecedented speed.
 				</p>
 			</div>
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Evidence-based outputs</h3>
+				<h3 class="font-medium text-sm">Covalent Binder Design</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					Verifiability and provenance for every atomic output.
+					Simulate bond breaking and formation that classical methods cannot model accurately.
 				</p>
 			</div>
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Trusted</h3>
+				<h3 class="font-medium text-sm">Award-Winning Technology</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					SOC-II Type 2 Certified, trusted by leading startups and enterprises.
+					Gordon Bell Prize and Dirac Medal recognized breakthrough in biomolecular simulations.
 				</p>
 			</div>
 		</div>
@@ -34,22 +34,18 @@
 		<div class="grid grid-cols-1 md:grid-cols-4 gap-8 items-center">
 			<div class="md:col-span-1">
 				<p class="font-mono text-xs text-muted w-3/4">
-					Powering the best AIs using the web
+					Trusted by leading pharma and biotech companies
 				</p>
 			</div>
 			<div class="md:col-span-3 flex flex-wrap items-center justify-between gap-8 grayscale opacity-70 hover:opacity-100 transition-opacity">
-				<!-- Logo Placeholders -->
+				<!-- Partner Logos -->
 				<div class="flex items-center gap-2 font-bold text-xl">
-					<div class="w-6 h-6 bg-red-500 rounded-sm"></div>
-					floqer
+					<div class="w-8 h-8 bg-primary-500/20 rounded-sm flex items-center justify-center text-xs font-mono">PT</div>
+					<span class="text-base">Prelude Therapeutics</span>
 				</div>
-				<div class="flex items-center gap-2 font-bold text-xl">
-					<div class="w-6 h-6 bg-blue-500 rounded-full"></div>
-					genpact
-				</div>
-				<div class="flex items-center gap-2 font-bold text-xl">
-					<div class="w-6 h-6 bg-pink-500 rounded-full border-2 border-black"></div>
-					Gumloop
+				<div class="flex items-center gap-2 font-semibold text-lg">
+					<div class="w-6 h-6 bg-primary-600/20 rounded-full flex items-center justify-center text-xs">A</div>
+					<span class="text-base">Automera</span>
 				</div>
 			</div>
 		</div>
